@@ -13,7 +13,25 @@ $isComplete = true;
 
 if($isComplete) {
     // Do something
-    echo 'Success';
+    // echo 'Success';
 } else {
-    echo 'Fail';
+    // echo 'Fail';
 }
+
+?>
+
+<!-- Integers -->
+<?php
+
+$max_int = PHP_INT_MAX;
+var_dump($max_int);
+
+echo '</br>';
+echo '</br>';
+
+$float_max_int = PHP_INT_MAX + 1;
+var_dump($float_max_int);
+
+?>
+
+
