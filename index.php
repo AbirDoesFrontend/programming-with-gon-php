@@ -34,4 +34,14 @@ var_dump($float_max_int);
 
 ?>
 
+<!-- Floats -->
 
+<?php
+
+echo '</br>';
+echo '</br>';
+
+$num_float = 13_000.5;
+var_dump($num_float);
+
+?>
